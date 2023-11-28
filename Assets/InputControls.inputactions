@@ -1,0 +1,54 @@
+{
+    "name": "InputControls",
+    "maps": [
+        {
+            "name": "New action map",
+            "id": "3c2d50e1-432c-42ac-86bb-edef9dcdc530",
+            "actions": [
+                {
+                    "name": "walk",
+                    "type": "Button",
+                    "id": "ee55fc2d-d55c-4dac-9a57-696867993816",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Run",
+                    "type": "Button",
+                    "id": "b02c9803-c001-4f8b-9a66-31d7f6633f8b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "646bbe06-95f3-45f9-aa01-4d50d1104b37",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "walk",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b1cdb54-3e8a-4ff2-9b46-513beb780cd1",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "MultiTap(tapTime=0.2,tapDelay=0.75)",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
